@@ -113,7 +113,7 @@ sap.ui.define([
 						oModel.read("/ProductSet/$count", {
 							filters: oFilter,
 							success: function (oData) {
-								console.log("oData",oData);
+								//console.log("oData",oData);
 								var sPath = "/" + sFilterKey;
 								oViewModel.setProperty(sPath, oData);
 							}
